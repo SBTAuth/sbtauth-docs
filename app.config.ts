@@ -1,8 +1,14 @@
 export default defineAppConfig({
   docus: {
     title: "SBTAuth Docs",
-  },
-  socials: {
-    github: 'https://github.com/SBTAuth/sbtauth',
+    url: "https://docs.sbtauth.io",
+    socials: {
+      github: "SBTAuth",
+    },
+    header: {
+      title: "SBTAuth Docs",
+      logo: false,
+      showLinkIcon: true,
+    },
   },
 });
