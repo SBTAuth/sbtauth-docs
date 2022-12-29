@@ -5,9 +5,10 @@ export default defineAppConfig({
     socials: {
       github: "SBTAuth",
     },
+    layout: "docs",
     header: {
       title: "SBTAuth Docs",
-      logo: false,
+      logo: true,
       showLinkIcon: true,
     },
   },
