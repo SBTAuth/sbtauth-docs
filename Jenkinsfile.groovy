@@ -11,7 +11,7 @@ pipeline {
     K8S_SVC_NAME = 'web-sbtauth-docs'
     IMAGE_NAME = 'web-sbtauth-docs'
 
-    PROD_WEB_URL = 'https://docs.sbtauth.io/
+    PROD_WEB_URL = 'https://docs.sbtauth.io/'
     TEST_WEB_URL = ''
 
     OUT_PUT_PATH = 'dist'
