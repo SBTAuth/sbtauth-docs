@@ -37,7 +37,7 @@ pipeline {
       steps {
         container('node') {
           script {
-            builder.build_web_node_yarn_package_custom("yarn --registry https://registry.npmmirror.com", envCmd, "yarn build && yarn generate")
+            builder.build_web_node_yarn_package_custom("yarn --registry https://registry.npmmirror.com", "yarn build && yarn generate")
           }
         }
       }
