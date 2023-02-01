@@ -37,12 +37,6 @@ pipeline {
       steps {
         container('node') {
           script {
-            def envCmd
-            if (env.BRANCH_NAME ==~ /(.*master.*)|(.*main.*)/) {
-                envCmd = 'cp .env.production .env'
-            } else {
-                envCmd = 'cp .env.preview .env'
-            }
             builder.build_web_node_yarn_package_custom("yarn --registry https://registry.npmmirror.com", envCmd, "yarn build && yarn generate")
           }
         }
