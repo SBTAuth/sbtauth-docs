@@ -7,7 +7,7 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
-    <title>SBTAuth</title>
+    <title>SafeMatrix</title>
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
       <g transform="translate(-40.000000, -18.000000)">
         <g transform="translate(40.000000, 18.000000)">

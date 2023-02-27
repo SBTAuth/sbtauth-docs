@@ -1,13 +1,13 @@
 export default defineAppConfig({
   docus: {
-    title: "SBTAuth Docs",
+    title: "SafeMatrix Docs",
     url: "https://docs.sbtauth.io",
     socials: {
       github: "SBTAuth",
     },
     layout: "docs",
     header: {
-      title: "SBTAuth Docs",
+      title: "SafeMatrix Docs",
       logo: true,
       showLinkIcon: true,
     },
